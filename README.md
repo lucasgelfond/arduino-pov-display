@@ -11,7 +11,9 @@ But, what if you only have one collumn?
 
 <img src="http://i.imgur.com/ZjXzWl4.png?1" width=263px, height=163px/>
 
-You can divide your array into 3 separate collumns. Now, if you used LEDs instead of cells in a table, if you were to move the LEDs in a line, any you used a long exposure, you would get a picture that mimics a large display with only a single collumn of LEDs. Example coming soon.
+You can divide your array into 3 separate collumns. Now, if you used LEDs instead of cells in a table, if you were to move the LEDs in a line, any you used a long exposure, you would get a picture that mimics a large display with only a single collumn of LEDs. 
+
+<img src="http://i.imgur.com/U0tp6nZ.jpg?1" width=400, height=300/>
 
 So, if you program an Arduino to flash LEDs in a certain pattern and move the Ardunio with the long exposure, you get long exposure photographs of letters. 
 
