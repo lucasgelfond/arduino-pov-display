@@ -15,6 +15,8 @@ You can divide your array into 3 separate collumns. Now, if you used LEDs instea
 
 <img src="http://i.imgur.com/U0tp6nZ.jpg?1" width=400, height=300/>
 
+If you look closely at the above picture, you can see the individual LEDs.
+
 So, if you program an Arduino to flash LEDs in a certain pattern and move the Ardunio with the long exposure, you get long exposure photographs of letters. 
 
 The code for this project will be uploaded soon. This is just an introduction. 
