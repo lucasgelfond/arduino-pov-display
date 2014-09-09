@@ -5,7 +5,7 @@ This repo is started as a way to house my first real Arduino project, the Arduin
 
 Let's say you have a 3x3 pixel grid. You can easily make simple letters like the "T" in this example.
 
-<img src="http://i.imgur.com/m60WFg3.png?1"/>
+<img src="http://i.imgur.com/m60WFg3.png?1" width=210px, height=179px/>
 
 But, what if you only have one collumn?
 
