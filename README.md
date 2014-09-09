@@ -9,7 +9,7 @@ Let's say you have a 3x3 pixel grid. You can easily make simple letters like the
 
 But, what if you only have one collumn?
 
-<img src="http://i.imgur.com/ZjXzWl4.png?1" width=500px, height=500px/>
+<img src="http://i.imgur.com/ZjXzWl4.png?1" width=263px, height=163px/>
 
 You can divide your array into 3 separate collumns. Now, if you used LEDs instead of cells in a table, if you were to move the LEDs in a line, any you used a long exposure, you would get a picture that mimics a large display with only a single collumn of LEDs. Example coming soon.
 
