@@ -23,7 +23,9 @@ If you look closely at the above picture, you can see the individual LEDs.
 
 So by moving this pattern slowly to the side, you form letters, and with a long exposure photograph, you can do almost anything.
 
-I'm currently writing code in the Arduino IDE. It uses 10 pins, each customizable so that you can pick any pins that you like. A schematic from Autodesk Circuit will be uploaded soon. 
+I'm currently writing code in the Arduino IDE. It uses 10 pins, each customizable so that you can pick any pins that you like. I'm trying to upload a schematic but 123D Circuits is tricky. 
+
+The whole code is written in the Arduino IDE. It uses the digitalWrite() command to turn LEDs on and off. I determine the states and which lights need to be on from a Google Document that I made that has all of the lettes in pixelated versions. That Google Doc with all the letters can be found <a href="https://docs.google.com/spreadsheets/d/1zgnJYY_FaUdyHc15hTCuNYxuNIVfHdMoEihmZqh1gu8/edit?usp=sharing"> here. </a>
 
 I'm attempting to write one letter per day, and I'll try to keep this repo updated. 
 
