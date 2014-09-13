@@ -188,6 +188,55 @@ void printC() {
   digitalWrite(pinA, LOW);
   digitalWrite(pinJ, LOW);
 }
+
+void printD() {
+  digitalWrite(pinA, HIGH);
+  digitalWrite(pinB, HIGH);
+  digitalWrite(pinC, HIGH);
+  digitalWrite(pinD, HIGH);
+  digitalWrite(pinE, HIGH);
+  digitalWrite(pinF, HIGH);
+  digitalWrite(pinG, HIGH);
+  digitalWrite(pinH, HIGH);
+  digitalWrite(pinI, HIGH);
+  digitalWrite(pinJ, HIGH);
+  delay(subletspace);
+  digitalWrite(pinI, LOW);
+  digitalWrite(pinH, LOW);
+  digitalWrite(pinG, LOW);
+  digitalWrite(pinF, LOW);
+  digitalWrite(pinE, LOW);
+  digitalWrite(pinD, LOW);
+  digitalWrite(pinC, LOW);
+  digitalWrite(pinB, LOW);
+  delay(subletspace);
+  digitalWrite(pinA, LOW);
+  digitalWrite(pinB, HIGH);
+  delay(subletspace);
+  digitalWrite(pinB, LOW);
+  digitalWrite(pinC, HIGH);
+  delay(subletspace);
+  digitalWrite(pinC, LOW);
+  digitalWrite(pinD, HIGH);
+  delay(subletspace);
+  digitalWrite(pinD, LOW);
+  digitalWrite(pinE, HIGH);
+  delay(subletspacE);
+  digitalWrite(pinE, LOW);
+  digitalWrite(pinF, HIGH);
+  delay(subletspace);
+  digitalWrite(pinF, LOW);
+  digitalWrite(pinG, HIGH);
+  delay(subletspace);
+  digitalWrite(pinG, LOW);
+  digitalWrite(pinH, HIGH);
+  delay(subletspace);
+  digitalWrite(pinH, LOW);
+  digitalWrite(pinI, HIGH);
+  digitalWrite(pinJ, LOW);
+  delay(subletspacE);
+  digitalWrite(pinI, LOW);
+}
   
 void orientationtest() {
   digitalWrite(pinJ, HIGH);
