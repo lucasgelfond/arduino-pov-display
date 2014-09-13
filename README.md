@@ -3,7 +3,7 @@ arduino-pov-display
 
 This repo is started as a way to house my first real Arduino project, the Arduino Persistence of Vision (POV) display. 
 
-A typical persistence of vision display works by using a similar technique but spins and uses much more complicated code. It often also requires soldering, custom woodworking, motors, and accelerometers. Example <a href="http://www.youtube.com/watch?v=uVL9V1wNoVg"> here </a> Also because it is circular, the amount of writing is very limited.  I decided that I wanted to stick with a much more simple approach for my first Arduino project. This is how it works:
+A typical persistence of vision display works by using a similar technique but spins and uses much more complicated code. It often also requires soldering, custom woodworking, motors, and accelerometers. Example <a href="http://www.youtube.com/watch?v=uVL9V1wNoVg"> here </a>. Also because it is circular, the amount of writing is very limited.  I decided that I wanted to stick with a much more simple approach for my first Arduino project. This is how it works:
 
 Let's say you have a 3x3 pixel grid. You can easily make simple letters like the "T" in this example.
 
