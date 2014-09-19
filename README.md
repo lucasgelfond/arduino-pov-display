@@ -3,7 +3,11 @@ arduino-pov-display
 
 This repo is started as a way to house my first real Arduino project, the Arduino Persistence of Vision (POV) display. 
 
-A typical persistence of vision display works by using a similar technique but spins and uses much more complicated code. It often also requires soldering, custom woodworking, motors, and accelerometers. Example <a href="http://www.youtube.com/watch?v=uVL9V1wNoVg"> here </a>. Also because it is circular, the amount of writing is very limited.  I decided that I wanted to stick with a much more simple approach for my first Arduino project. This is how it works:
+A typical persistence of vision display works by using a similar technique but spins and uses much more complicated code. It often also requires soldering, custom woodworking, motors, and accelerometers. Example <a href="http://www.youtube.com/watch?v=uVL9V1wNoVg"> here </a>. I decided that I wanted to stick with a much more simple approach for my first Arduino project. 
+
+Because of this, the project is perfect not only for enthusiasts, but for beginners in place of just flashing LEDs, photographers, and people wanting a cool, but easy first project. 
+
+This is how it works:
 
 Let's say you have a 3x3 pixel grid. You can easily make simple letters like the "T" in this example.
 
@@ -27,7 +31,11 @@ I'm currently writing code in the Arduino IDE. It uses 10 pins, each customizabl
 
 The whole code is written in the Arduino IDE. It uses the digitalWrite() command to turn LEDs on and off. I determine the states and which lights need to be on from a Google Document that I made that has all of the lettes in pixelated versions. That Google Doc with all the letters can be found <a href="https://docs.google.com/spreadsheets/d/1zgnJYY_FaUdyHc15hTCuNYxuNIVfHdMoEihmZqh1gu8/edit?usp=sharing"> here. </a>
 
-I'm attempting to write one letter per day, and I'll try to keep this repo updated. 
+Instead of 3, this project uses 10 LEDs wired to the digital pins with 330 OHM resistors. You can set the pins at the top of the document by assigning the lettered pins to digital pins (i.e pinA=10) and use the orientationtest() module to test that your top pin (J) is on the top. 
+
+I'm attempting to write one letter per day, and I'll try to keep this repo updated. Currently I've finished 'M'. 
+
+Until Next Time,
 
 Lucas Gelfond
 
