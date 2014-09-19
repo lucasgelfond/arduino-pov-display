@@ -33,7 +33,7 @@ The whole code is written in the Arduino IDE. It uses the digitalWrite() command
 
 Instead of 3, this project uses 10 LEDs wired to the digital pins with 330 OHM resistors. You can set the pins at the top of the document by assigning the lettered pins to digital pins (i.e pinA=10) and use the orientationtest() module to test that your top pin (J) is on the top. 
 
-I'm attempting to write one letter per day, and I'll try to keep this repo updated. Currently I've finished 'M'. 
+I'm attempting to write one letter per day, and I'll try to keep this repo updated. Currently I've finished 'P'. 
 
 Until Next Time,
 
