@@ -32,6 +32,8 @@ void setup() {
   pinMode(13, OUTPUT);
 }
 
+//This script allows one to test that all of the LEDs light up properly and then the orientation. If executed correctly, all LEDs should flash and then the top LED should stay on.
+//If the bottom LED illuminates instead of the top, replace values (i.e change pinA to pinJ and pinB to pinI and so on).
 void configuration() {
   digitalWrite(pinA, HIGH);
   digitalWrite(pinB, HIGH);
@@ -54,6 +56,11 @@ void configuration() {
   digitalWrite(pinH, LOW);
   digitalWrite(pinI, LOW);
   digitalWrite(pinJ, LOW);
+  delay(wordspace);
+  digitalWrite(pinJ, HIGH);
+  delay(wordspace*2);
+  digitalWrite(pinJ, LOW);
+  
 }
   
 void printA() {
@@ -686,11 +693,7 @@ void printO() {
   digitalWrite(pinH, LOW);
   digitalWrite(pinI, LOW);
 }
-  
-void orientationtest() {
-  digitalWrite(pinJ, HIGH);
-}
-  
+
 void loop() {
  printC();
   
