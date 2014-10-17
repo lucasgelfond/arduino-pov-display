@@ -1,14 +1,14 @@
 //List your pins that control lights
-int pinA = 11;
-int pinB = 10;
-int pinC = 9;
-int pinD = 8;
-int pinE = 7;
-int pinF = 6;
-int pinG = 5;
-int pinH = 4;
-int pinI = 3;
-int pinJ = 2;
+int pinA = 2;
+int pinB = 3;
+int pinC = 4;
+int pinD = 5;
+int pinE = 6;
+int pinF = 7;
+int pinG = 8;
+int pinH = 9;
+int pinI = 10;
+int pinJ = 11;
 
 int subletspace = 250;
 int letspace = 150;
@@ -46,7 +46,7 @@ void configuration() {
   digitalWrite(pinI, HIGH);
   digitalWrite(pinJ, HIGH);
   delay(wordspace);
-  digitalWrite(pinA, HIGH);
+  digitalWrite(pinA, LOW);
   digitalWrite(pinB, LOW);
   digitalWrite(pinC, LOW);
   digitalWrite(pinD, LOW);
@@ -589,7 +589,6 @@ void printM() {
 }   
  
 void printN() {
-  void printM() {
   digitalWrite(pinA, HIGH);
   digitalWrite(pinB, HIGH);
   digitalWrite(pinC, HIGH);
@@ -694,7 +693,41 @@ void printO() {
   digitalWrite(pinI, LOW);
 }
 
+void printP(){
+  digitalWrite(pinA, HIGH);
+  digitalWrite(pinB, HIGH);
+  digitalWrite(pinC, HIGH);
+  digitalWrite(pinD, HIGH);
+  digitalWrite(pinE, HIGH);
+  digitalWrite(pinF, HIGH);
+  digitalWrite(pinG, HIGH);
+  digitalWrite(pinH, HIGH);
+  digitalWrite(pinI, HIGH);
+  digitalWrite(pinJ, HIGH);
+  delay(subletspace);
+  digitalWrite(pinA, LOW);
+  digitalWrite(pinB, LOW);
+  digitalWrite(pinC, LOW);
+  digitalWrite(pinD, LOW);
+  digitalWrite(pinE, LOW);
+  digitalWrite(pinG, LOW);
+  digitalWrite(pinH, LOW);
+  digitalWrite(pinI, LOW);
+  delay(subletspace*3);
+  digitalWrite(pinI, HIGH);
+  digitalWrite(pinH, HIGH);
+  digitalWrite(pinG, HIGH);
+  delay(subletspace);
+  digitalWrite(pinF, LOW);
+  digitalWrite(pinG, LOW);
+  digitalWrite(pinH, LOW);
+  digitalWrite(pinI, LOW);
+  digitalWrite(pinJ, LOW);
+  delay(subletspace);
+}
+  
+  
 void loop() {
- printC();
+ printP();
   
 }
