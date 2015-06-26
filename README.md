@@ -35,6 +35,8 @@ Instead of 3, this project uses 10 LEDs wired to the digital pins with 330 OHM r
 
 I just finished writing all of the letters and I've added the schematic showing how I wired it. Obviously, resistors don't stretch that long but the point is that you can do this with a single jumper cable to ground. If you don't space out your LEDs that much, it works perfectly.
 
+Now all I've got to do is to test this and then its complete. 
+
 Enjoy. 
 
 Until Next Time,
