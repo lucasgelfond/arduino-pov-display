@@ -844,6 +844,32 @@ void printS() {
   digitalWrite(pinJ, LOW);
   delay(subletspace);
 }
+
+void printT() {
+  digitalWrite(pinJ, HIGH);
+  delay(subletspace*4);
+  digitalWrite(pinA, HIGH);
+  digitalWrite(pinB, HIGH);
+  digitalWrite(pinC, HIGH);
+  digitalWrite(pinD, HIGH);
+  digitalWrite(pinE, HIGH);
+  digitalWrite(pinF, HIGH);
+  digitalWrite(pinG, HIGH);
+  digitalWrite(pinH, HIGH);
+  digitalWrite(pinI, HIGH);
+  delay(subletspace);
+  digitalWrite(pinA, LOW);
+  digitalWrite(pinB, LOW);
+  digitalWrite(pinC, LOW);
+  digitalWrite(pinD, LOW);
+  digitalWrite(pinE, LOW);
+  digitalWrite(pinF, LOW);
+  digitalWrite(pinG, LOW);
+  digitalWrite(pinH, LOW);
+  digitalWrite(pinI, LOW);
+  delay(subletspace*5);
+  digitalWrite(pinJ, LOW);
+}
   
 void loop() {
  printR();
