@@ -33,7 +33,9 @@ The whole code is written in the Arduino IDE. It uses the digitalWrite() command
 
 Instead of 3, this project uses 10 LEDs wired to the digital pins with 330 OHM resistors. You can set the pins at the top of the document by assigning the lettered pins to digital pins (i.e pinA=10) and use the orientationtest() module to test that your top pin (J) is on the top. 
 
-I just finished writing all of the letters and I will hopefully add a diagram with what pins and such to plug things in along with a demo to test that my code works out correctly. 
+I just finished writing all of the letters and I've added the schematic showing how I wired it. Obviously, resistors don't stretch that long but the point is that you can do this with a single jumper cable to ground. If you don't space out your LEDs that much, it works perfectly.
+
+Enjoy. 
 
 Until Next Time,
 
