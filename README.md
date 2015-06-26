@@ -5,7 +5,7 @@ This repo is started as a way to house my first real Arduino project, the Arduin
 
 A typical persistence of vision display works by using a similar technique but spins and uses much more complicated code. It often also requires soldering, custom woodworking, motors, and accelerometers. Example <a href="http://www.youtube.com/watch?v=uVL9V1wNoVg"> here </a>. I decided that I wanted to stick with a much more simple approach for my first Arduino project. 
 
-Because of this, the project is perfect not only for enthusiasts, but for beginners in place of just flashing LEDs, photographers, and people wanting a cool, but easy first project. 
+Because of this, the project is perfect not only for enthusiasts, but for beginners in place of just flashing LEDs, photographers, and people wanting a cool, but easy first project. In fact, this is probably the cheapest way to (digitally) write letters while light painting. 
 
 This is how it works:
 
@@ -33,7 +33,7 @@ The whole code is written in the Arduino IDE. It uses the digitalWrite() command
 
 Instead of 3, this project uses 10 LEDs wired to the digital pins with 330 OHM resistors. You can set the pins at the top of the document by assigning the lettered pins to digital pins (i.e pinA=10) and use the orientationtest() module to test that your top pin (J) is on the top. 
 
-I'm attempting to write one letter per day, and I'll try to keep this repo updated. Currently I've finished 'P'. 
+I just finished writing all of the letters and I will hopefully add a diagram with what pins and such to plug things in along with a demo to test that my code works out correctly. 
 
 Until Next Time,
 
