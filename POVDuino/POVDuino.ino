@@ -1187,7 +1187,68 @@ void printZ() {
   
 }
 
+void alphabet() {
+  printA();
+  delay(letspace);
+  printB();
+  delay(letspace);
+  printC();
+  delay(letspace);
+  printD();
+  delay(letspace);
+  printE();
+  delay(letspace);
+  printF();
+  delay(letspace);
+  printG();
+  delay(letspace);
+  printE();
+  delay(letspace);
+  printF();
+  delay(letspace);
+  printG();
+  delay(letspace);
+  printH();
+  delay(letspace);
+  printI();
+  delay(letspace);
+  printJ();
+  delay(letspace);
+  printK();
+  delay(letspace);
+  printL();
+  delay(letspace);
+  printM();
+  delay(letspace);
+  printN();
+  delay(letspace);
+  printO();
+  delay(letspace);
+  printP();
+  delay(letspace);
+  printQ();
+  delay(letspace);
+  printR();
+  delay(letspace);
+  printS();
+  delay(letspace);
+  printT();
+  delay(letspace);
+  printU();
+  delay(letspace);
+  printV();
+  delay(letspace);
+  printW();
+  delay(letspace);
+  printX();
+  delay(letspace);
+  printY();
+  delay(letspace);
+  printZ();
+  //now I know my ABCs
+}
+
 void loop() {
- printR();
+ alphabet();
   
 }
