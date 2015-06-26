@@ -1057,6 +1057,58 @@ void printW() {
   digitalWrite(pinH, LOW);
   digitalWrite(pinI, LOW);
   digitalWrite(pinJ, LOW);
+  delay(subletspace);
+}
+
+void printX() {
+  digitalWrite(pinJ, HIGH);
+  digitalWrite(pinA, HIGH);
+  delay(subletspace);
+  digitalWrite(pinJ, LOW);
+  digitalWrite(pinA, LOW);
+  digitalWrite(pinI, HIGH);
+  digitalWrite(pinB, HIGH);
+  delay(subletspace);
+  digitalWrite(pinI, LOW);
+  digitalWrite(pinB, LOW);
+  digitalWrite(pinH, HIGH);
+  digitalWrite(pinC, HIGH);
+  delay(subletspace);
+  digitalWrite(pinH, LOW);
+  digitalWrite(pinC, LOW);
+  digitalWrite(pinG, HIGH);
+  digitalWrite(pinD, HIGH);
+  delay(subletspace);
+  digitalWrite(pinG, LOW);
+  digitalWrite(pinD, LOW);
+  digitalWrite(pinF, HIGH);
+  digitalWrite(pinE, HIGH);
+  delay(subletspace*2);
+  digitalWrite(pinF, LOW);
+  digitalWrite(pinE, LOW);
+  digitalWrite(pinG, HIGH);
+  digitalWrite(pinD, HIGH);
+  delay(subletspace);
+  digitalWrite(pinG, LOW);
+  digitalWrite(pinD, LOW);
+  digitalWrite(pinH, HIGH);
+  digitalWrite(pinC, HIGH);
+  delay(subletspace);
+  digitalWrite(pinH, LOW);
+  digitalWrite(pinC, LOW);
+  digitalWrite(pinI, HIGH);
+  digitalWrite(pinB, HIGH);
+  delay(subletspace);
+  digitalWrite(pinI, LOW);
+  digitalWrite(pinB, LOW);
+  digitalWrite(pinJ, HIGH);
+  digitalWrite(pinA, HIGH);
+  delay(subletspace);
+  digitalWrite(pinJ, LOW);
+  digitalWrite(pinA, LOW);
+  delay(subletspace);
+  
+  
 }
   
 void loop() {
